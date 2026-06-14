@@ -1,7 +1,7 @@
 # Trabalho Final Modelagem de Banco de Dados
 Trabalho desenvolvido na disciplina de Modelagem de Banco de Dados do curso DSM(1° Semestre) da Fatec Franca.
 
-# Cenário
+# 1. Cenário
 
 
   Uma empresa chamada Digital Music é responsável pela organização e divulgação de eventos musicais em diversas cidades. O sistema desenvolvido tem como objetivo gerenciar informações sobre eventos, artistas, organizadores, locais, usuários e ingressos.
@@ -18,20 +18,20 @@ Trabalho desenvolvido na disciplina de Modelagem de Banco de Dados do curso DSM(
   
   O sistema permite registrar múltiplos telefones para organizadores, facilitando a comunicação com os responsáveis pelos eventos e apresentações.
 
-# Modelo Conceitual
+# 2. Modelagem Conceitual
 
 ![Modelo Conceitual](PRINTS/Modelos/modeloconceitual.png)
 
   O modelo conceitual representa as entidades principais e seus relacionamentos.
 
-# Modelo Lógico
+# 3. Modelagem Lógica
 
 ![Modelo Lógico](PRINTS/Modelos/modelologico.png)
 
   Nesta etapa, as entidades do modelo conceitual foram convertidas em tabelas relacionais, 
  garantindo a integridade dos dados e o correto relacionamento entre as entidades do sistema.
 
-# Modelagem Física
+# 4. Modelagem Física
 
 ## Criação do Schema
 
@@ -126,7 +126,7 @@ Trabalho desenvolvido na disciplina de Modelagem de Banco de Dados do curso DSM(
 
   > Os dados foram inseridos respeitando as chaves primárias e estrangeiras, garantindo integridade referencial entre as tabelas.
 
-# CRUD
+# 5. CRUD
 
 CRUD é um conjunto de operações básicas utilizadas para manipular dados em um banco de dados:
 - Create (Inserir)
@@ -143,6 +143,9 @@ CRUD é um conjunto de operações básicas utilizadas para manipular dados em u
 ```sql
 INSERT INTO digital_music.organizador
 VALUES (51, 'Teste CRUD', 'teste@email.com');
+```
+
+
 
 ## Read
 
@@ -150,11 +153,23 @@ Consulta de registros cadastrados.
 
 ![Read](PRINTS/CRUD/Read.png)
 
+```sql
+SELECT *
+FROM digital_music.organizador
+WHERE id_organizador = 51;
+```
+
 ## Update
 
 Atualização de dados existentes.
 
 ![Update](PRINTS/CRUD/Update.png)
+
+```sql
+UPDATE digital_music.organizador
+SET nome = 'Teste CRUD Atualizado'
+WHERE id_organizador = 51;
+```
 
 ## Delete
 
@@ -162,7 +177,12 @@ Remoção do registro da tabela.
 
 ![Delete](PRINTS/CRUD/Delete.png)
 
-# Relatórios
+```sql
+DELETE FROM digital_music.organizador
+WHERE id_organizador = 51;
+```
+
+# 6. Relatórios (Consultas SQL)
 
 Foram desenvolvidas 10 consultas SQL utilizando SELECT, WHERE, ORDER BY e relacionamentos entre tabelas.
 
