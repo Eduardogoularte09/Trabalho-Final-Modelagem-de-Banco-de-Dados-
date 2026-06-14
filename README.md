@@ -147,7 +147,7 @@ Foram desenvolvidas 10 consultas SQL utilizando SELECT, WHERE, ORDER BY e relaci
 ![Consulta 4](PRINTS/ConsultasSQL/Consulta4.png)
 
 ## Consulta 5 - Usuários com ingressos VIP
-  Lista usuários que adquiriram ingressos do tipo VIP, junto com o tipo e valor do ingresso.
+  Lista usuários que adquiriram ingressos do tipo VIP, junto com o valor do ingresso.
 
 ![Consulta 5](PRINTS/ConsultasSQL/Consulta5.png)
 
