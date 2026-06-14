@@ -72,6 +72,7 @@ Trabalho desenvolvido na disciplina de Modelagem de Banco de Dados do curso DSM(
 
 ##  Inserção de Dados
 
+![Dados](PRINTS/InserçãoDeDados/organizador.png)
 ![Tabelas](PRINTS/Tabelas/tabelaorganizador.png)
 
 ![Tabelas](PRINTS/Tabelas/tabelaconta.png)
