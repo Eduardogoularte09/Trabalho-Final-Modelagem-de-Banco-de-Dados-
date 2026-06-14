@@ -1,7 +1,7 @@
-# Trabalho-Final-Modelagem-de-Banco-de-Dados-
+# Trabalho-Final Modelagem de Banco de Dados
 Trabalho desenvolvido na disciplina de Modelagem de Banco de Dados do curso DSM(1° Semestre) da Fatec Franca.
 
-1 - Cenário
+# Cenário
 
 
   Uma empresa chamada Digital Music é responsável pela organização e divulgação de eventos musicais em diversas cidades. O sistema desenvolvido tem como objetivo gerenciar informações sobre eventos, artistas, organizadores, locais, usuários e ingressos.
@@ -20,9 +20,21 @@ Trabalho desenvolvido na disciplina de Modelagem de Banco de Dados do curso DSM(
 
 # Modelo Conceitual
 
-![Modelo Conceitual](imagens/modeloconceitual.png)
+![Modelo Conceitual](PRINTS/modeloconceitual.png)
 
 # Modelo Lógico
 
-![Modelo Lógico](imagens/modelologico.png)
+![Modelo Lógico](PRINTS/modelologico.png)
+
+# Modelagem Física
+
+## Criação do Schema
+
+![Schema](PRINTS/CriaçãoDasTabelas/criandoschema.pngschema.png)
+
+  O schema `digital_music` foi criado para organizar todas as estruturas do banco de dados. Em seguida, foram implementadas as tabelas necessárias para representar as entidades e relacionamentos definidos na modelagem lógica.
+
+## Tabela Organizador
+
+![Tabelas](PRINTS/CriaçãoDasTabelas/organizador.png)
 
