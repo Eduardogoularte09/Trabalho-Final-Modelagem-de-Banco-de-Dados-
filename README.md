@@ -20,17 +20,17 @@ Trabalho desenvolvido na disciplina de Modelagem de Banco de Dados do curso DSM(
 
 # Modelo Conceitual
 
-![Modelo Conceitual](PRINTS/modeloconceitual.png)
+![Modelo Conceitual](PRINTS/Modelos/modeloconceitual.png)
 
 # Modelo Lógico
 
-![Modelo Lógico](PRINTS/modelologico.png)
+![Modelo Lógico](PRINTS/Modelos/modelologico.png)
 
 # Modelagem Física
 
 ## Criação do Schema
 
-![Schema](PRINTS/CriaçãoDasTabelas/criandoschema.pngschema.png)
+![Schema](PRINTS/CriaçãoDasTabelas/criandoschema.pngs.png)
 
   O schema `digital_music` foi criado para organizar todas as estruturas do banco de dados. Em seguida, foram implementadas as tabelas necessárias para representar as entidades e relacionamentos definidos na modelagem lógica.
 
@@ -38,3 +38,34 @@ Trabalho desenvolvido na disciplina de Modelagem de Banco de Dados do curso DSM(
 
 ![Tabelas](PRINTS/CriaçãoDasTabelas/organizador.png)
 
+## Tabela Conta
+
+![Tabelas](PRINTS/CriaçãoDasTabelas/conta.png)
+
+## Tabela Local
+
+![Tabelas](PRINTS/CriaçãoDasTabelas/local.png)
+
+## Tabela Usuário
+
+![Tabelas](PRINTS/CriaçãoDasTabelas/usuario.png)
+
+## Tabela Artista
+
+![Tabelas](PRINTS/CriaçãoDasTabelas/artista.png)
+
+## Tabela Evento
+
+![Tabelas](PRINTS/CriaçãoDasTabelas/evento.png)
+
+## Tabela Ingresso
+
+![Tabelas](PRINTS/CriaçãoDasTabelas/ingresso.png)
+
+## Tabela Telefone_Organizador
+
+![Tabelas](PRINTS/CriaçãoDasTabelas/telefone_organizador.png)
+
+## Tabela Artista_Evento
+
+![Tabelas](PRINTS/CriaçãoDasTabelas/artista_evento.png)
