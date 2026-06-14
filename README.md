@@ -1,4 +1,4 @@
-# Trabalho-Final Modelagem de Banco de Dados
+# Trabalho Final Modelagem de Banco de Dados
 Trabalho desenvolvido na disciplina de Modelagem de Banco de Dados do curso DSM(1° Semestre) da Fatec Franca.
 
 # Cenário
@@ -22,9 +22,14 @@ Trabalho desenvolvido na disciplina de Modelagem de Banco de Dados do curso DSM(
 
 ![Modelo Conceitual](PRINTS/Modelos/modeloconceitual.png)
 
+  O modelo conceitual representa as entidades principais e seus relacionamentos.
+
 # Modelo Lógico
 
 ![Modelo Lógico](PRINTS/Modelos/modelologico.png)
+
+  Nesta etapa, as entidades do modelo conceitual foram convertidas em tabelas relacionais, 
+ garantindo a integridade dos dados e o correto relacionamento entre as entidades do sistema.
 
 # Modelagem Física
 
@@ -86,10 +91,10 @@ Trabalho desenvolvido na disciplina de Modelagem de Banco de Dados do curso DSM(
 
 ### Tabela Local
 
-![Dados](PRINTS/InserçãoDeDados/conta.png)
+![Dados](PRINTS/InserçãoDeDados/local.png)
 ![Tabelas](PRINTS/Tabelas/tabelalocal.png)
 
-### Tabela Usuario
+### Tabela Usuário
 
 ![Dados](PRINTS/InserçãoDeDados/usuario.png)
 ![Tabelas](PRINTS/Tabelas/tabelausuario.png)
@@ -119,6 +124,8 @@ Trabalho desenvolvido na disciplina de Modelagem de Banco de Dados do curso DSM(
 ![Dados](PRINTS/InserçãoDeDados/artista_evento.png)
 ![Tabelas](PRINTS/Tabelas/tabelaartista_evento.png)
 
+  > Os dados foram inseridos respeitando as chaves primárias e estrangeiras, garantindo integridade referencial entre as tabelas.
+
 # CRUD
 
 CRUD é um conjunto de operações básicas utilizadas para manipular dados em um banco de dados:
@@ -132,6 +139,10 @@ CRUD é um conjunto de operações básicas utilizadas para manipular dados em u
   Inserção de um novo organizador.
 
 ![Create](PRINTS/CRUD/Create.png)
+
+```sql
+INSERT INTO digital_music.organizador
+VALUES (51, 'Teste CRUD', 'teste@email.com');
 
 ## Read
 
