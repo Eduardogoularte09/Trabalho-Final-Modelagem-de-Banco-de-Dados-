@@ -18,5 +18,7 @@ Trabalho desenvolvido na disciplina de Modelagem de Banco de Dados do curso DSM(
   
   O sistema permite registrar múltiplos telefones para organizadores, facilitando a comunicação com os responsáveis pelos eventos e apresentações.
 
-2 - Modelagem Conceitual
+# Modelo Conceitual
+
+![Modelo Conceitual](imagens/modeloconceitual.png)
 
