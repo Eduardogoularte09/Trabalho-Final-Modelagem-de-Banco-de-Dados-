@@ -70,14 +70,54 @@ Trabalho desenvolvido na disciplina de Modelagem de Banco de Dados do curso DSM(
 
 ![Tabelas](PRINTS/CriaçãoDasTabelas/artista_evento.png)
 
-##  50 Registros por tabela
+##  Inserção de Dados
 
 ![Tabelas](PRINTS/Tabelas/tabelaorganizador.png)
+
 ![Tabelas](PRINTS/Tabelas/tabelaconta.png)
+
 ![Tabelas](PRINTS/Tabelas/tabelalocal.png)
+
 ![Tabelas](PRINTS/Tabelas/tabelausuario.png)
+
 ![Tabelas](PRINTS/Tabelas/tabelaartista.png)
+
 ![Tabelas](PRINTS/Tabelas/tabelaevento.png)
+
 ![Tabelas](PRINTS/Tabelas/tabelaingresso.png)
+
 ![Tabelas](PRINTS/Tabelas/tabelatelefone_organizador.png)
+
 ![Tabelas](PRINTS/Tabelas/tabelaartista_evento.png)
+
+# CRUD
+
+CRUD é um conjunto de operações básicas utilizadas para manipular dados em um banco de dados:
+- Create (Inserir)
+- Read (Consultar)
+- Update (Atualizar)
+- Delete (Excluir)
+
+## Create
+
+  Inserção de um novo organizador.
+
+![Create](PRINTS/CRUD/Create.png)
+
+## Read
+
+Consulta de registros cadastrados.
+
+![Read](PRINTS/CRUD/Read.png)
+
+## Update
+
+Atualização de dados existentes.
+
+![Update](PRINTS/CRUD/Update.png)
+
+## Delete
+
+Remoção do registro da tabela.
+
+![Delete](PRINTS/CRUD/Delete.png)
