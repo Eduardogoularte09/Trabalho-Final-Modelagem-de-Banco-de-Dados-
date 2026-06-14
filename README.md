@@ -30,7 +30,7 @@ Trabalho desenvolvido na disciplina de Modelagem de Banco de Dados do curso DSM(
 
 ## Criação do Schema
 
-![Schema](PRINTS/CriaçãoDasTabelas/criandoschema.pngs.png)
+![Schema](PRINTS/CriaçãoDasTabelas/criandoschema.png)
 
   O schema `digital_music` foi criado para organizar todas as estruturas do banco de dados. Em seguida, foram implementadas as tabelas necessárias para representar as entidades e relacionamentos definidos na modelagem lógica.
 
@@ -69,3 +69,15 @@ Trabalho desenvolvido na disciplina de Modelagem de Banco de Dados do curso DSM(
 ## Tabela Artista_Evento
 
 ![Tabelas](PRINTS/CriaçãoDasTabelas/artista_evento.png)
+
+##  50 Registros por tabela
+
+![Tabelas](PRINTS/Tabelas/tabelaorganizador.png)
+![Tabelas](PRINTS/Tabelas/tabelaconta.png)
+![Tabelas](PRINTS/Tabelas/tabelalocal.png)
+![Tabelas](PRINTS/Tabelas/tabelausuario.png)
+![Tabelas](PRINTS/Tabelas/tabelaartista.png)
+![Tabelas](PRINTS/Tabelas/tabelaevento.png)
+![Tabelas](PRINTS/Tabelas/tabelaingresso.png)
+![Tabelas](PRINTS/Tabelas/tabelatelefone_organizador.png)
+![Tabelas](PRINTS/Tabelas/tabelaartista_evento.png)
