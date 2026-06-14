@@ -72,23 +72,51 @@ Trabalho desenvolvido na disciplina de Modelagem de Banco de Dados do curso DSM(
 
 ##  Inserção de Dados
 
+  Foram inseridos dados iniciais nas principais tabelas do banco de dados, garantindo o correto funcionamento das relações entre as entidades do sistema.
+
+### Tabela Organizador
+
 ![Dados](PRINTS/InserçãoDeDados/organizador.png)
 ![Tabelas](PRINTS/Tabelas/tabelaorganizador.png)
 
+### Tabela Conta
+
+![Dados](PRINTS/InserçãoDeDados/conta.png)
 ![Tabelas](PRINTS/Tabelas/tabelaconta.png)
 
+### Tabela Local
+
+![Dados](PRINTS/InserçãoDeDados/conta.png)
 ![Tabelas](PRINTS/Tabelas/tabelalocal.png)
 
+### Tabela Usuario
+
+![Dados](PRINTS/InserçãoDeDados/usuario.png)
 ![Tabelas](PRINTS/Tabelas/tabelausuario.png)
 
+### Tabela Artista
+
+![Dados](PRINTS/InserçãoDeDados/artista.png)
 ![Tabelas](PRINTS/Tabelas/tabelaartista.png)
 
+### Tabela Evento
+
+![Dados](PRINTS/InserçãoDeDados/evento.png)
 ![Tabelas](PRINTS/Tabelas/tabelaevento.png)
 
+### Tabela Ingresso
+
+![Dados](PRINTS/InserçãoDeDados/ingresso.png)
 ![Tabelas](PRINTS/Tabelas/tabelaingresso.png)
 
+### Tabela Telefone_organizador
+
+![Dados](PRINTS/InserçãoDeDados/telefone_organizador.png)
 ![Tabelas](PRINTS/Tabelas/tabelatelefone_organizador.png)
 
+### Tabela Artista_Evento
+
+![Dados](PRINTS/InserçãoDeDados/artista_evento.png)
 ![Tabelas](PRINTS/Tabelas/tabelaartista_evento.png)
 
 # CRUD
