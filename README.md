@@ -121,3 +121,57 @@ Atualização de dados existentes.
 Remoção do registro da tabela.
 
 ![Delete](PRINTS/CRUD/Delete.png)
+
+# Relatórios
+
+Foram desenvolvidas 10 consultas SQL utilizando SELECT, WHERE, ORDER BY e relacionamentos entre tabelas.
+
+## Consulta 1 - Eventos localizados no estado de SP
+  Retorna os eventos e seus respectivos locais filtrando apenas os que estão no estado de São Paulo.
+
+![Consulta 1](PRINTS/ConsultasSQL/Consulta1.png)
+
+## Consulta 2 - Eventos e organizadores com ID até 25
+  Lista os eventos junto ao nome do organizador, considerando apenas organizadores com ID menor ou igual a 25.
+
+![Consulta 2](PRINTS/ConsultasSQL/Consulta2.png)
+
+## Consulta 3 - Eventos com ingressos acima de R$ 150
+  Exibe eventos, tipos de ingresso e valores filtrando ingressos com preço superior a R$ 150.
+
+![Consulta 3](PRINTS/ConsultasSQL/Consulta3.png)
+
+## Consulta 4 - Artistas com cachê acima de R$ 8.000
+  Apresenta artistas e seus cachês em eventos, filtrando valores acima de R$ 8.000.
+
+![Consulta 4](PRINTS/ConsultasSQL/Consulta4.png)
+
+## Consulta 5 - Usuários com ingressos VIP
+  Lista usuários que adquiriram ingressos do tipo VIP, junto com o tipo e valor do ingresso.
+
+![Consulta 5](PRINTS/ConsultasSQL/Consulta5.png)
+
+## Consulta 6 - Eventos com alta disponibilidade de ingressos
+  Exibe eventos com ingressos cujo estoque é superior a 400 unidades.
+
+![Consulta 6](PRINTS/ConsultasSQL/Consulta6.png)
+
+## Consulta 7 - Organizadores com telefone cadastrado
+  Lista organizadores que possuem telefone cadastrado no sistema.
+
+![Consulta 7](PRINTS/ConsultasSQL/Consulta7.png)
+
+## Consulta 8 - Artistas em eventos com cachê acima de R$ 5.000
+  Mostra eventos e artistas participantes, filtrando apenas cachês acima de R$ 5.000.
+
+![Consulta 8](PRINTS/ConsultasSQL/Consulta8.png)
+
+## Consulta 9 - Média de preço dos ingressos por evento
+  Calcula a média de preço dos ingressos por evento, considerando valores maiores ou iguais a R$ 80.
+
+![Consulta 9](PRINTS/ConsultasSQL/Consulta9.png)
+
+## Consulta 10 - Receita potencial por evento
+  Calcula a receita potencial de cada evento multiplicando o valor dos ingressos pelo estoque disponível.
+
+![Consulta 10](PRINTS/ConsultasSQL/Consulta10.png)
