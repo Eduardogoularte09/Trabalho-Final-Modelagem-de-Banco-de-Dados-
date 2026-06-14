@@ -22,3 +22,7 @@ Trabalho desenvolvido na disciplina de Modelagem de Banco de Dados do curso DSM(
 
 ![Modelo Conceitual](imagens/modeloconceitual.png)
 
+# Modelo Lógico
+
+![Modelo Lógico](imagens/modelologico.png)
+
